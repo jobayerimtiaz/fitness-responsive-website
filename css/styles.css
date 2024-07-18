@@ -18,8 +18,8 @@
 
 .container {
     width: 100%;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
-    border: 2px solid yellow;
+    background-color: black;
+    /* border: 2px solid yellow; */
 }
 
 .btn-primary {
@@ -51,8 +51,7 @@
 /* nav styles */
 
 .header-bg {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-    background: black;
+    background: linear-gradient(180deg, rgb(17, 17, 17), rgba(20, 20, 20, 0.9) 100%);
 }
 
 .nav-container {
@@ -227,6 +226,72 @@
 .box-1 {
     top: 130px;
     left: 230px;
+}
+
+/* main section styles....................... */
+
+/* change habit section */
+
+.change-habit-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-habit-text h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.change-habit-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.change-habit-img {
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.round-img {
+    border-radius: 50%;
+}
+
+.img-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-text h6 {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.img-text p {
+    width: 231px;
+    height: 36px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
 }
 
 /* responsive design */
