@@ -31,6 +31,7 @@
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
+    margin-bottom: 50px;
 }
 
 .btn-secondary {
@@ -51,14 +52,14 @@
 /* nav styles */
 
 .header-bg {
-    background: linear-gradient(180deg, rgb(17, 17, 17), rgba(20, 20, 20, 0.9) 100%);
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3.5rem;
+    /* margin-top: 3.5rem; */
     margin-left: 11rem;
     margin-right: 11rem;
 }
@@ -208,11 +209,6 @@
     position: relative;
 }
 
-.web-intro-img {
-    position: relative;
-}
-
-
 .box-2,
 .box-1 {
     position: absolute;
@@ -232,6 +228,7 @@
 
 /* change habit section */
 
+
 .change-habit-text {
     display: flex;
     flex-direction: column;
@@ -240,10 +237,10 @@
 }
 
 .change-habit-text h2 {
+    margin-top: 100px;
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
-    margin-bottom: 5px;
 }
 
 .change-habit-text p {
@@ -256,7 +253,7 @@
 
 
 .change-habit-img {
-    margin: 60px auto;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -278,8 +275,6 @@
     color: rgb(255, 255, 255);
     font-size: 1.3rem;
     font-weight: 600;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -293,6 +288,62 @@
     font-weight: 400;
     text-align: center;
 }
+
+/* run extra mile section */
+
+.run-extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.run-extra-card {
+    display: flex;
+    width: 80%;
+    margin-top: 40px;
+    gap: 150px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-bottom: 30px;
+}
+
+.run-extra-text {
+    margin-left: 40px;
+}
+
+.run-extra-text h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.run-extra-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.run-extra-img {
+    margin-right: 40px;
+}
+
+.run-extra-img img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    margin-top: 30px;
+}
+
+/* training and exercise section */
+
+
 
 /* responsive design */
 
@@ -373,5 +424,42 @@
         font-size: 20px;
     }
 
+    .change-habit-text h2 {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .change-habit-img {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .run-extra-card {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .run-extra-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .run-extra-img img {
+        width: 287px;
+        height: 170px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .btn-resize {
+        width: 287px;
+        height: 54px;
+        margin-bottom: 10px;
+    }
 
 }
