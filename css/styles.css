@@ -482,7 +482,7 @@ input::placeholder {
 }
 
 .bmi-chart {
-    margin-left: 150px;
+    margin-left: 30px;
     margin-top: 0px;
 }
 
@@ -606,6 +606,66 @@ input::placeholder {
         width: 287px;
         height: 54px;
         margin-bottom: 10px;
+    }
+
+    .bmi-calculator {
+        margin-left: 20px;
+    }
+
+    .bmi-calculator h2 {
+        font-size: 32px;
+    }
+
+    .bmi-chart {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .bmi-calculate {
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .bmi-calculate h2 {
+        font-size: 32px;
+        margin-top: 0px;
+    }
+
+    .bmi-info {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bmi-chart h2 {
+        font-size: 16px;
+    }
+
+    .bmi-form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bmi-calculate h2 {
+        font-size: 16px;
+    }
+
+    .bmi-calculate p {
+        width: 346px;
+    }
+
+    .input-group-1 input,
+    .input-group-2 input {
+        width: 172px;
+    }
+
+    .input-group-2 select {
+        width: 174px;
+    }
+
+    .input-group-3 select {
+        width: 363px;
     }
 
 }
