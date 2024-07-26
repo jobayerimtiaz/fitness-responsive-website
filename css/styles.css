@@ -490,6 +490,92 @@ input::placeholder {
     margin-top: 70px;
 }
 
+/* meet our team section */
+
+.meet-team-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meet-team-text h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.meet-team-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.team-image-container {
+    width: 75%;
+    height: 604px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-top: 60px;
+}
+
+.trainers-images {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+}
+
+.image-box-1,
+.image-box-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.image-box-1 {
+    margin-top: 30px;
+}
+
+.image-box-2 {
+    margin-bottom: 20px;
+}
+
+.trainer-img {
+    position: relative;
+}
+
+.trainer-info {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+
+.p-name {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.p-title {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+
+
+
 
 /* responsive design */
 
