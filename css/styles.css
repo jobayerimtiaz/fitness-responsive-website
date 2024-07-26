@@ -516,7 +516,6 @@ input::placeholder {
 
 .team-image-container {
     width: 75%;
-    height: 604px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -525,7 +524,7 @@ input::placeholder {
     gap: 20px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 
 .trainers-images {
@@ -542,11 +541,11 @@ input::placeholder {
 }
 
 .image-box-1 {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .image-box-2 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .trainer-img {
@@ -567,13 +566,58 @@ input::placeholder {
 }
 
 .p-title {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     margin-top: 0px;
 }
 
+/* unlock potential section */
 
+.extra-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unlock-potential-text {
+    margin-top: 60px;
+}
+
+.unlock-potential-text h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.unlock-potential-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.features-images {
+    width: 200px;
+    height: 180px;
+    border-radius: 16px;
+    border: 4px solid rgb(34, 34, 34);
+}
+
+.features-img-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.special-features {
+    display: flex;
+    gap: 80px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 
 
 
@@ -752,6 +796,37 @@ input::placeholder {
 
     .input-group-3 select {
         width: 363px;
+    }
+
+    .image-box-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-box-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-image-container {
+        width: 90%;
+    }
+
+    .meet-team-text h2 {
+        font-size: 32px;
+    }
+
+    .meet-team-text p {
+        text-align: center;
+    }
+
+    .unlock-potential-text h2 {
+        font-size: 2rem;
+        margin-left: 10px;
+    }
+
+    .special-features {
+        flex-direction: column;
     }
 
 }
