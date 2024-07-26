@@ -19,7 +19,6 @@
 .container {
     width: 100%;
     background-color: black;
-    /* border: 2px solid yellow; */
 }
 
 .btn-primary {
@@ -52,8 +51,13 @@
 /* nav styles */
 
 .header-bg {
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
+    background: linear-gradient(180deg,
+            rgb(17, 17, 17) 0%,
+            rgba(10, 10, 10, 0.9) 50%,
+            rgb(0, 0, 0) 100%);
 }
+
+
 
 .nav-container {
     display: flex;
@@ -158,6 +162,18 @@
     height: 40px;
     background: rgb(230, 83, 60);
     border-radius: 50%;
+    position: relative;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid white;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 33px;
 }
 
 .box-2 {
@@ -528,7 +544,7 @@ input::placeholder {
 }
 
 .trainers-images {
-    width: 326.67px;
+    width: 326px;
     height: 272px;
     border-radius: 18px;
 }
@@ -723,6 +739,10 @@ input::placeholder {
         width: 90%;
     }
 
+    .hold-dumble {
+        width: 95%;
+    }
+
     .web-intro-text h1 {
         font-size: 36px;
         line-height: 100%;
@@ -736,23 +756,27 @@ input::placeholder {
         display: flex;
     }
 
-    .web-intro-img {
-        width: 90%;
+    .circle {
+        position: relative;
+    }
+
+    .triangle {
+        left: 15px;
     }
 
     .box-1 {
-        top: 45px;
-        left: 200px;
+        top: 200px;
+        left: 160px;
     }
 
     .box-2 {
-        top: 250px;
+        top: 300px;
         left: 20px;
     }
 
     .box-1,
     .box-2 {
-        width: 145px;
+        width: 120px;
         height: 74px;
     }
 
@@ -795,29 +819,40 @@ input::placeholder {
     }
 
     .run-extra-img img {
-        width: 287px;
+        width: 270px;
         height: 170px;
-        margin-left: 30px;
+        margin-left: 39px;
         margin-bottom: 30px;
     }
 
     .btn-resize {
-        width: 287px;
+        width: 250px;
+        width: 80%;
         height: 54px;
+        margin-left: 10px;
         margin-bottom: 10px;
     }
 
     .bmi-calculator {
-        margin-left: 20px;
+        margin-left: 0px;
     }
 
     .bmi-calculator h2 {
         font-size: 32px;
+        margin-left: 20px;
+    }
+
+    .bmi-calculator p {
+        margin-left: 20px;
     }
 
     .bmi-chart {
         margin-top: 30px;
         margin-left: 0px;
+    }
+
+    .bmi-table {
+        width: 280px;
     }
 
     .bmi-calculate {
@@ -828,6 +863,11 @@ input::placeholder {
     .bmi-calculate h2 {
         font-size: 32px;
         margin-top: 0px;
+        padding-left: 40px;
+    }
+
+    .bmi-calculate p {
+        padding-left: 40px;
     }
 
     .bmi-info {
@@ -844,6 +884,8 @@ input::placeholder {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0 auto;
+        margin-right: 10px;
     }
 
     .bmi-calculate h2 {
@@ -856,15 +898,20 @@ input::placeholder {
 
     .input-group-1 input,
     .input-group-2 input {
-        width: 172px;
+        width: 130px;
     }
 
     .input-group-2 select {
-        width: 174px;
+        width: 133px;
     }
 
     .input-group-3 select {
-        width: 363px;
+        width: 280px;
+    }
+
+    .input-group-3 {
+        margin-right: 14px;
+        /* margin: 0 auto; */
     }
 
     .image-box-1 {
@@ -878,7 +925,12 @@ input::placeholder {
     }
 
     .team-image-container {
-        width: 90%;
+        width: 95%;
+    }
+
+    .trainers-images {
+        width: 280px;
+        height: 272px;
     }
 
     .meet-team-text h2 {
@@ -891,7 +943,7 @@ input::placeholder {
 
     .unlock-potential-text h2 {
         font-size: 2rem;
-        margin-left: 10px;
+        padding-left: 10px;
     }
 
     .special-features {
@@ -904,17 +956,18 @@ input::placeholder {
     }
 
     .footer-title-name {
-        padding-left: 40px;
+        padding-left: 70px;
     }
 
     .footer-title p {
-        padding-left: 40px;
-        width: 317px;
+        padding-left: 80px;
+        width: 290px;
     }
 
     .get-started-1,
     .get-started-2 {
         margin-top: 10px;
+        padding-left: 20px;
         margin-right: 225px;
     }
 
